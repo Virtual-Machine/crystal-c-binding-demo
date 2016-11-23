@@ -1,0 +1,2 @@
+#!/bin/bash
+gcc -o example_lib.o -c example_lib.c && gcc -shared -o /usr/local/lib/libexample.so  example_lib.o -lm && crystal build example.cr
