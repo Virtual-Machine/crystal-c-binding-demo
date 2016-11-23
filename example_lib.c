@@ -1,4 +1,4 @@
-#include "example.h"
+#include "example_lib.h"
 
 char * helloWorld() {
 	return "Hello there\0";

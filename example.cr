@@ -1,6 +1,6 @@
 # File cos.cr
 
-@[Link(ldflags: "-L/Users/dwork/Desktop -lexample")] # adding Math Library
+@[Link(ldflags: "-lexample")]
 
 lib C
   fun helloWorld : UInt8*
